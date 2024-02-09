@@ -1,0 +1,23 @@
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: #2c3e50;
+}
+.form-control{
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.btn{
+    background-color: #1abc9c;
+}
+
+p , i{
+    color: #2c3e50;
+}
+
+.all{
+    color: #1abc9c;
+}
+

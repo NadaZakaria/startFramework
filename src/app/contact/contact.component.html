@@ -1,0 +1,21 @@
+<section class="contact d-flex justify-content-center align-items-center flex-column my-5">
+    <p class="mt-3 fw-bold fs-1 text-center">ABOUT COMPONENT</p>
+    <div class="d-flex justify-content-center align-items-center">
+        <p class=" line me-3"></p>
+        <i class="fa-solid fa-star"></i>
+        <p class=" line ms-3"></p>
+    </div>
+    <div class="container d-flex flex-column w-50 py-5">
+        <label #name id="name"  class="d-none all">userName:</label>
+        <input type="text" placeholder="userName " class="py-3 mt-4 form-control" id="name" (keydown)="work(name)" (keydown.backspace)="stop(name)">
+        <label #age for="age" class="d-none all"> userAge:</label>
+        <input type="text" placeholder="userAge" class="py-3 mt-4 form-control" (keydown)="work(age)" (keydown.backspace)="stop(age)">
+        <label #email for="email" class="d-none all"> userEmail:</label>
+        <input type="email" placeholder="userEmail" class="py-3 mt-4 form-control" (keydown)="work(email)" (keydown.backspace)="stop(email)">
+        <label #password for="password" class="d-none all"> userPassword:</label>
+        <input type="password" placeholder="userPassword" class="py-3 mt-4 form-control" (keydown)="work(password)" (keydown.backspace)="stop(password)">
+        <div>
+            <button class="btn text-white mt-4">send message</button>
+        </div>
+    </div>
+</section>
